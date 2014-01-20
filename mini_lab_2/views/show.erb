@@ -1,0 +1,16 @@
+<!-- # This adds the poster link in the img tag and links it with the title from above -->
+  
+<h1 id="pick"><%="#{@result["Title"]}"%></h1>
+<div class="dots">
+  <img src= <%= "#{@result["Poster"]}" %>></img>
+</div>
+<br /><h2><%="#{@result["Title"]}"%> -- <%="#{@result["Plot"]}"%> -- 
+      <%="Released:  #{@result["Released"]}"%> -- <%="Rated:  
+      #{@result["Rated"]}"%> -- <%="Runtime:  #{@result["Runtime"]}"%> -- 
+      <%="Genre:  #{@result["Genre"]}"%> -- <%="Director:  
+      #{@result["Director"]}"%> -- <%="Actors:  #{@result["Actors"]}"%>
+      </h2>
+<br /><a href="/">New Search</a>
+
+
+

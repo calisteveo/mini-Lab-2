@@ -1,0 +1,19 @@
+<!-- holds the each loop that links to the poster page -->
+
+<!-- This will loop through the search results array and collects the values of  -->
+ <!-- keys: Title and Year and turns this into a link -->
+
+<h1 id="results">Movie Search Results</h1>
+
+<ul>
+  <% @result["Search"].each do |x| %>                        
+  <li>
+  	<a href=<%="/poster/#{x["imdbID"]}"%>> 
+    <%="#{x["Title"]}"%>  <%="#{x["Plot"]}"%>  <%="#{x["Released"]}"%>
+    <%="#{x["Rated"]}"%>  <%="#{x["Runtime"]}"%>  <%="#{x["Genre"]}"%>  
+     <%="#{x["Director"]}"%>  <%="#{x["Actors"]}"%></a> 
+  </li>
+  <% end %>
+</ul>
+
+

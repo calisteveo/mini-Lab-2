@@ -1,0 +1,79 @@
+#title {
+	text-align: center;
+	color: #EBB70E;
+	font-family: ;
+	font-size: 80px;
+	border: gold round-dotted 20px;
+}
+
+.dots {
+	border: #EBB70E ridge 15px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#marquee {
+	background-size: cover;
+	background-position: center;
+}
+
+#results {
+	text-underline-position: under;
+}
+
+#pick {
+	text-underline-position: under;
+	height: 35px;
+	width: 500px;
+	text-size: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #aeabba;
+	opacity: 0.8;
+}
+
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1 {
+	color: #000000;	
+}
+
+label {
+	text-align: center;
+}
+
+ul {
+	text-align: center;
+}
+
+h2 {
+	color: #77f263;
+	background-color: #ffffff;
+	opacity: 0.9;
+}
+
+body {
+	text-align: center;
+	background: url("http://www.visualphotos.com/photo/2x6160550/exterior_night_shot_of_a_retro_illuminated_neon_movie_theatre_4193R-2223.jpg");
+	background-size: cover;
+	background-position: center;
+	color: black;
+}
+
+form {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+a {
+	text-align: center;
+}
