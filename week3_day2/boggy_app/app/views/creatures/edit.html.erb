@@ -1,0 +1,15 @@
+<form action="/creatures/<%= @creature.id %>" method="post">
+<!-- this allows us to get a put. rails won't let you put. we're posting a put -->
+	
+	<input type="hidden" name="_method" value="put">
+	
+	<label> Name: </label>
+	 <input type="text" name="creature[name]" value="<%= @creature.name %>"> <br>
+	
+	<label> Description: </label><br>
+	 <textarea name="creature[description]" value="<%= @creature.description %>"></textarea><br>
+	
+	<!-- authenticity tag -->
+<%= token_tag form_authenticity_token %>
+	 <button> Edit </button>
+</form>
